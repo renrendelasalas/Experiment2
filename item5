@@ -1,0 +1,22 @@
+#include<iostream>
+#include<conio.h>
+using namespace std; 
+int main()
+{
+	int multip = 1;
+	int num = 1;
+	
+	while(num <= 30){
+		cout<<num;
+		num += multip;
+		
+		if(num>=10){
+			multip = 2;
+		}
+		if(num <= 30){
+			cout<<",";
+		}
+	}
+	getch();
+	return 0;
+}
