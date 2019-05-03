@@ -1,0 +1,15 @@
+#include<iostream>
+#include<conio.h>
+using namespace std;
+int main()
+{
+
+int num;
+cout<<"Insert a number: "; cin>>num;
+
+for(int x =1; x<=10; x++){
+	cout<<x<<"*"<<num<<" = "<<x*num<<endl;
+}	
+getch();
+return 0;
+}
