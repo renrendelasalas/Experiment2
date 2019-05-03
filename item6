@@ -1,0 +1,26 @@
+#include<iostream>
+#include<conio.h>
+using namespace std;
+
+int main() {
+	int num1 = 0;
+	int num2 = 1;
+	int temp;
+	
+	cout<<num1<<","<<num2<<",";
+	for (int x = 3; x<22; x++) {
+	temp = num1 + num2;
+	num1 = num2;
+	num2 = temp;
+	cout<<temp;
+	
+	if(x < 20){
+		cout<<",";
+		
+	}	
+	
+	}
+	getch();
+	return 0;
+	
+}
