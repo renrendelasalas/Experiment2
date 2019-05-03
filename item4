@@ -1,0 +1,28 @@
+#include<iostream>
+#include<conio.h>
+using namespace std;
+int main() 
+{
+	int firstnumber, secondnumber, thirdnumber, largest;
+	
+	cout<<"Enter the value of the 1st number: "; cin>>firstnumber;
+	cout<<"Enter the value of the 2nd number: "; cin>>secondnumber;
+	cout<<"Enter the value of the 3rd number: "; cin>>thirdnumber;
+	
+	if(firstnumber > secondnumber){ 
+	largest = firstnumber;
+	}
+	else if(secondnumber > firstnumber){
+	largest = secondnumber;
+	}
+	if(largest > thirdnumber){
+	largest = largest;	
+	}
+	else{
+		largest = thirdnumber;
+	}
+	
+	cout<<"The largest number among the three is: "<<largest;
+	getch();
+	return 0;
+}
